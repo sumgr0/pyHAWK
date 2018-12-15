@@ -33,6 +33,15 @@ Searches the directory of choice for interesting files. Such as database files a
 + .dayone
 + .mdf
 
+### Misc Files
++ .log
+
+### Config Files
++ .cscfg
++ .rdp
++ .tblk
++ .ovpn
+
 
 #### Insperation
 Inspired by ice3man543 check it out here : https://github.com/Ice3man543/hawkeye
