@@ -1,4 +1,4 @@
-# pyHAWK
+# pyHAWK <img src="logo.png" width="50">
 Searches the directory of choice for interesting files. Such as database files and files with passwords stored on them
 <img src="demo.png" width="400">
 
