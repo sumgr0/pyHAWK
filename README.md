@@ -18,14 +18,10 @@ python2 main.py
 
 
 # Usage
-
-``` To set a Directory use -d or --directory
+To set a Directory use -d or --directory
+``` 
 python2 main.py -d <directory>
 ```
-
-To run it against my home directory, i can pass /home/ice3man as the argument. 
-```bash
-./hawkeye -d /home/ice3man
 
 # File Extensions
 ### Cryptography
