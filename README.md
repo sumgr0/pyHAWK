@@ -58,6 +58,36 @@ python2 main.py -d <directory>
 + .tblk
 + .ovpn
 
+# File Names
+### Password Files
++ credentials.xml
++ robomongo.json
++ filezilla.xml
++ recentservers.xml
++ ventrilo_srv.ini
++ terraform.tfvars
++ secret_token.rb
++ carrierwave.rb
++ omniauth.rb
++ settings.py
++ database.yml
+
+### Database Files
++ journal.txt
++ Favorites.plist
+
+### Misc Files
++ root.txt
++ users.txt
++ passwords.txt
++ login.txt
+
+### Config Files
++ jenkins.plugins.publish_over_ssh.BapSshPublisherPlugin.xml
++ LocalSettings.php
++ configuration.user.xpl
++ knife.rb
+
 
 #### Insperation
 Inspired by ice3man543 check it out here : https://github.com/Ice3man543/hawkeye
