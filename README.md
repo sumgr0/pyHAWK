@@ -7,6 +7,26 @@ Searches the directory of choice for interesting files. Such as database files a
 + Outputs them to the screen
 + Supports many file types 
 
+# Installation Instructions
+
+The installation is easy. Git clone the repo and run go build.
+
+```
+git clone https://github.com/MetaChar/pyHAWK
+python2 main.py
+```
+
+
+# Usage
+
+``` To set a Directory use -d or --directory
+python2 main.py -d <directory>
+```
+
+To run it against my home directory, i can pass /home/ice3man as the argument. 
+```bash
+./hawkeye -d /home/ice3man
+
 # File Extensions
 ### Cryptography
 + .pem
