@@ -40,7 +40,7 @@ hawk = color.BOLD + color.RED + '''
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝
 [{0}-{1}]──> Coded by Metachar
 [{2}-{3}]──> https://github.com/MetaChar
-[{4}-{5}]──> version: {6}1.0.0   '''.format(color.CWHITE,color.RED,color.CWHITE,color.RED,color.CWHITE,color.RED,color.GREEN)
+[{4}-{5}]──> version: {6}1.0.1   '''.format(color.CWHITE,color.RED,color.CWHITE,color.RED,color.CWHITE,color.RED,color.GREEN)
 logo = hawk.encode('utf8')
 
 
@@ -109,6 +109,10 @@ def file_check(count):
                 time(color.GREEN +' [!]'+color.CWHITE +' Misc file Found in dir '+options.directory + '/' + t[count2])
             if t[count2] in ConfigurationFile:
                 time(color.GREEN +' [!]'+color.CWHITE +' Config file Found in dir '+options.directory + '/' +t[count2])
+            f = open(options.directory+'/'+t[count2] , 'r')
+            if 'password' in f.read():
+                time(color.GREEN +' [!]'+color.CWHITE +' Keyword Password found in '+options.directory + '/' +t[count2])
+
             count2 += 1
         except KeyboardInterrupt:
 			exit()
